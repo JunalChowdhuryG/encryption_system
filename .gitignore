@@ -1,0 +1,37 @@
+# Python general
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de entorno virtual
+.idea
+.idea/
+.venv
+venv/
+.env/
+*.env
+.venv/
+
+# Archivos de claves sensibles
+data/aes_key.key
+data/private_key.pem
+data/public_key.pem
+
+# Archivos encriptados/desencriptados (salidas)
+data/encrypted/
+data/decrypted/
+
+# Archivos de entrada de prueba (opcionales)
+data/input/
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y reportes de pruebas
+*.log
+*.out
+*.err
+coverage/
+
